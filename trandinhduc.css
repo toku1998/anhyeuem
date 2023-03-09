@@ -1,0 +1,97 @@
+body{
+    background: url(background.png);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 0;
+    padding: 0;
+    max-height: 844px;
+    min-width: 390px;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 260px;
+    margin-left: 50px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+.a{
+    background: #ff0000;
+    border: none;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 8px;
+    font-weight: bold;
+    margin-left: 190px;
+}
+.b{
+    background: red;
+    border: none;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+a:link {
+    color : #fff;
+    text-decoration: none;
+}
+a:visited {
+    color : #fff ;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color : #fff;
+    text-decoration: none;
+}
+.heart {
+	width: 200px;
+	height: 200px;
+	top: 15%;
+	left: 50%;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	transform: translate(-50%,-50%);
+    animation: heart 1s ease infinite
+}
+@keyframes heart {
+    96% {
+    transform: translate(-50%,-50%) scale(.8,.8)
+    }
+    
+    100% {
+    transform: translate(-50%,-50%) scale(1,1)
+    }
+}    
+.heart div {
+	background: red;
+	width: 71px;
+	height: 126px;
+	top: 100px;
+	display: block;
+	position: absolute;
+	border-radius: 50%
+}
+
+.left {
+	left: 45px;
+    transform: rotate(330deg);
+}
+
+.right{
+	right: 45px;
+    transform: rotate(30deg);
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="trandinhduc.css">
+    </head>
+    <body>
+        <div>
+          <div class="heart">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <h1>Người yêu của tôi là Dương Thị Vân
+          </h1>
+          <!-- <button class="a" onclick="alert('Cái này thêm cho vui chứ không có bấm được.Vui lòng bấm nút Đồng Ý')">Suy Nghĩ Thêm</button> -->
+          <button class="b"><a href="https://www.facebook.com/profile.php?id=100006771580299">Facebook người yêu tôi</a></button>
+          <button class="b"><a href="https://www.tiktok.com/@annhien160199">Tiktok người yêu tôi</a></button>
+        </div>
+        <img src="ny.jpg" alt="nguoi yeu cua toi" width="800" height="820" style="margin-left: 9%;">
+    </body>
+    <script>
+        $(document).ready(function(){
+         $('.title').click(function(){
+           $('.container').addClass('open');
+         });
+         $('.close').click(function(){
+           $('.container').removeClass('open');
+         });
+       });
+    </script>
+</html>

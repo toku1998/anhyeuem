@@ -1,0 +1,30 @@
+body{
+    background: url(background.png);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+a img{
+    width: 300px;
+    height: 250px;
+    margin-left: 350px;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+span{
+    position: absolute;
+    top: 170px;
+    left: 380px;
+    color: red;
+    font-size: 35px;
+    font-family:  'Courier New', Courier, monospace;
+    text-align: center;
+}
+
